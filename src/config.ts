@@ -7,7 +7,7 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Daem0nu',
+  title: 'BA4E',
   subtitle: 'Blog',
   lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
@@ -40,7 +40,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About,
     {
       name: 'GitHub',
-      url: 'https://github.com/daem0nu/astro-blog',     // Internal links should not include the base path, as it is automatically added
+      url: 'https://github.com/BA4E/astro-blog',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
   ],
@@ -48,8 +48,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/liuhua-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Daem0nu',
-  bio: 'Enjoy your love,hack for fun.',
+  name: 'BA4E',
+  bio: 'Enjoy your love, dig for base, hack for fun.',
   links: [
     {
       name: 'Twitter',
@@ -66,7 +66,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/daem0nu',
+      url: 'https://github.com/BA4E',
     },
   ],
 }
